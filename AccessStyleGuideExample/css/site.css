@@ -1,0 +1,13 @@
+.btn-access, .k-button.btn-access {
+  background-color: #036d83;
+  border-color: #024451; }
+  .btn-access:hover, .k-button.btn-access:hover {
+    background-color: #04829c;
+    border-color: #02586a; }
+  .btn-access:focus, .btn-access:active, .k-button.btn-access:focus, .k-button.btn-access:active {
+    background-color: #02586a;
+    border-color: #024451; }
+
+.k-button.k-state-focused, .k-button:focus:active:not(.k-state-disabled):not([disabled]),
+.k-button:focus:not(.k-state-disabled):not([disabled]), .k-state-focused {
+  box-shadow: none; }

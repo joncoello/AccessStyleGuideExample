@@ -1,0 +1,20 @@
+﻿$access-color: #036d83;
+
+//Switch out with the desired button colour from _buttons.scss
+.btn-access, .k-button.btn-access {
+  background-color: $access-color;
+  border-color: darken( $access-color, 10% );
+  &:hover {
+    background-color: lighten( $access-color, 5% );
+    border-color: darken( $access-color, 5% );
+  }
+  &:focus, &:active {
+    background-color: darken( $access-color, 5% );
+    border-color: darken( $access-color, 10% );
+  }
+}
+.k-button.k-state-focused, .k-button:focus:active:not(.k-state-disabled):not([disabled]),
+.k-button:focus:not(.k-state-disabled):not([disabled]), .k-state-focused{
+  box-shadow: none;
+}
+  
